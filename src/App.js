@@ -83,6 +83,7 @@ function App() {
               <option value="male">Male</option>
               <option value="female">Female</option>
               <option value="others">Others</option>
+              
             </select>
             {formik.errors.list ?
               <div className="text-danger">{formik.errors.list}</div> : null}
