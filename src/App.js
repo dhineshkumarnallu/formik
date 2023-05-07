@@ -96,6 +96,7 @@ function App() {
               type="text"
               name="password"
               onChange={formik.handleChange}
+              
               value={formik.values.password}
             />
             {formik.errors.password ?
